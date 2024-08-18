@@ -1,3 +1,8 @@
+''' This python program generates simulation results based on the paper 
+"Exponential Stabilization of Mobile Robots with Nonholonomic Constraints" (1991) by C. Canudas de Wit and 0. J. Sordalen
+The simulation shows a two-wheeled robot converging to the origin with zero orientation from any initial state. 
+NOTE: It will require "wheeled_robot.png"(for a simple robot graphics) and "white.jpg"(for white background) files to be in the same folder for the code to run. '''
+
 import pygame
 import os
 import matplotlib.pyplot as plt
